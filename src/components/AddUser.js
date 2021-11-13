@@ -46,7 +46,7 @@ const AddUser = () => {
   };
   const addUserDetails = async () => {
     await addUser(user);
-    history.push("./crud/all");
+    history.push("./all");
   };
 
   return (

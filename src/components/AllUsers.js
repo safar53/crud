@@ -134,7 +134,7 @@ const AllUsers = () => {
                   color="primary"
                   style={{ marginRight: 20 }}
                   component={Link}
-                  to={`/crud/edit/${user.id}`}
+                  to={`/edit/${user.id}`}
                 >
                   Edit
                 </Button>

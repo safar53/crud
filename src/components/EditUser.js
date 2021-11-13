@@ -53,7 +53,7 @@ const EditUser = () => {
 
   const editUserDetails = async () => {
     const response = await editUser(id, user);
-    history.push("/all");
+    history.push("/crud/all");
   };
 
   const onValueChange = (e) => {

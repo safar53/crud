@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:3003/users";
+const url = "https://crud-app-ivory.vercel.app/users";
 
 export const getUsers = async (id) => {
   id = id || "";

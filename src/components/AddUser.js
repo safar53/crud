@@ -20,8 +20,8 @@ const useStyle = makeStyles({
   container: {
     width: "50%",
     margin: "0 0 0 25%",
-    background: "#ddd",
-    padding: "0 20px",
+    background: "#fff",
+    padding: "0 20px 20px 20px",
     "& > *": {
       marginTop: 20,
     },

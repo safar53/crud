@@ -27,8 +27,8 @@ const useStyles = makeStyles({
   container: {
     width: "50%",
     margin: "0 0 0 25%",
-    background: "#ddd",
-    padding: "0 20px",
+    background: "#fff",
+    padding: "0 20px 20px 20px",
     "& > *": {
       marginTop: 20,
     },
@@ -62,8 +62,9 @@ const EditUser = () => {
   };
 
   return (
-    <FormGroup className={classes.container}>
-      <Typography variant="h4">Edit Information</Typography>
+    <>
+      <Typography variant="h4" className={classes.header}>Edit Information</Typography>
+      <FormGroup className={classes.container}>
       <FormControl>
         <InputLabel htmlFor="my-input">Name</InputLabel>
         <Input
@@ -113,7 +114,8 @@ const EditUser = () => {
           Edit User
         </Button>
       </FormControl>
-    </FormGroup>
+      </FormGroup>
+    </>
   );
 };
 

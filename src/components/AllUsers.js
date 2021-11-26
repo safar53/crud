@@ -24,8 +24,8 @@ const useStyle = makeStyles({
     margin: 20,
   },
   table: {
-    width: "80%",
-    margin: "0 0 0 10%",
+    width: "90%",
+    margin: "0 0 0 5%",
   },
   thead: {
     "& > *": {
@@ -36,7 +36,7 @@ const useStyle = makeStyles({
   },
   tbody: {
     "& > *": {
-      background: "#ddd",
+      background: "#fff",
       color: "#000",
       fontSize: 20,
     },
@@ -83,7 +83,6 @@ const AllUsers = () => {
             <TableCell>Id</TableCell>
             <TableCell>Name</TableCell>
             <TableCell>Username</TableCell>
-            <TableCell>Age</TableCell>
             <TableCell>Email</TableCell>
             <TableCell>Phone</TableCell>
             <TableCell></TableCell>
@@ -125,7 +124,6 @@ const AllUsers = () => {
               <TableCell>{user.id}</TableCell>
               <TableCell>{user.name}</TableCell>
               <TableCell>{user.username}</TableCell>
-              <TableCell>{user.age}</TableCell>
               <TableCell>{user.email}</TableCell>
               <TableCell>{user.phone}</TableCell>
               <TableCell>

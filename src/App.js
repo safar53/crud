@@ -3,6 +3,7 @@ import AllUsers from "./components/AllUsers";
 import AddUser from "./components/AddUser";
 import EditUser from "./components/EditUser";
 import NotFound from "./components/NotFound";
+import HomePage from "./components/HomePage";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/" />
+        <Route exact path="/" component={HomePage} />
         <Route exact path="/all" component={AllUsers} />
         <Route exact path="/add" component={AddUser} />
         <Route exact path="/edit/:id" component={EditUser} />

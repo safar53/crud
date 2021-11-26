@@ -1,3 +1,11 @@
 {
-  "users": []
+  "users": [
+    {
+      "name": "gianluci buffon",
+      "username": "gigi",
+      "email": "gigibuffon@gmail.com",
+      "phone": "54565653403",
+      "id": 1
+    }
+  ]
 }
